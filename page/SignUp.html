@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div class="navbar">
+
+        <!-- ======first menu===== -->
+
+        <div class="navbar1">
+            <div class="logo" data-aos="zoom-in">
+                <img src="../image/logo.webp" alt="">
+                <h1>DaHouse Café</h1>
+            </div>
+            <div class="search">
+                <input type="text" id="search" placeholder="ស្វែងរកនៅទីនេះ... ">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+
+        <!-- ========second menu====== -->
+
+        <div class="navbar2">
+            <div class="menu">
+                <ul>
+                    <li class="dropdown">
+                        <a href="../index.html" class="hvr-underline-from-center">
+                            <i class="fa-solid fa-house"></i>
+                            ទំព័រដើម</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="hvr-underline-from-center">
+                            <i class="fa-solid fa-mug-hot"></i>
+                            កាហ្វេ</a>
+                        <div class="dropdown-item">
+                            <ul>
+                                <li>
+                                    <a href="../page/menu.html#Hot-coffee" class="hvr-underline-from-center">Hot coffee</a>
+                                </li>
+                                <li>
+                                    <a href="../page/menu.html#Iced-coffee" class="hvr-underline-from-center">Cold coffee</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="hvr-underline-from-center">
+                            <i class="fa-solid fa-glass-water"></i>
+
+                            ភេស្ជជៈ</a>
+                        <div class="dropdown-item">
+                            <ul>
+                                <li>
+                                    <a href="../page/menu.html#Juice" class="hvr-underline-from-center">ទឹកផ្លែឈើ</a>
+                                </li>
+                                <li>
+                                    <a href="../page/menu.html#Milk-Tea" class="hvr-underline-from-center">តែគុជ</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="hvr-underline-from-center">
+                            <i class="fa-solid fa-cake-candles"></i>
+                            ខេក
+                        </a>
+                        <div class="dropdown-item">
+                            <ul>
+                                <li><a href="../page/menu.html#Cake" class="hvr-underline-from-center">នំខេក</a></li>
+                                <li><a href="../page/menu.html#Bread" class="hvr-underline-from-center">នំប័ុង</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="../page/contactUs.html" class="hvr-underline-from-center">
+                            <i class="fa-solid fa-id-card"></i>
+                            ទំនាក់ទំនង
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="../page/AboutUs.html" class="hvr-underline-from-center">
+                            <i class="fa-regular fa-circle-user"></i>
+
+                            អំពីខ្ញុំ</a>
+                    </li>
+                </ul>
+            </div>
+            <button id="sign" class="hvr-shrink">Sign Up</button>
+        </div>
+    </div>
+    <div class="main" data-aos="zoom-out">
+        <input type="checkbox" id="chk" aria-hidden="true">
+        <div class="signup">
+            <form action="">
+                <label for="chk" aria-hidden="true">Sign up</label>
+                <input type="text" name="txt" placeholder="User name" required="">
+                <input type="email" name="email" placeholder="Email" required="" >
+                <input type="Password" name="pswd" placeholder="Password" required>
+                <button>Sign up</button>
+                <a href="#" class="forgot" style="font-family: roboto;">Forgot password</a>
+            </form>
+        </div>
+        <div class="login">
+            <form action="">
+                <label for="chk" aria-hidden="true" style=" color: orange;">login</label>
+                <input type="email" name="email" placeholder="Email" required="">
+                <input type="Password" name="pswd" placeholder="Password" required="">
+                <button>Login</button>
+            </form>
+        </div>
+    </div>
+
+        <!-- ========footer======= -->
+
+        <div class="foot">
+            <div class="main-foot" data-aos="fade-up">
+                <div class="logo-foot">
+                    <img src="../image/logo.webp" alt="">
+                    <h1>DaHouse Café</h1>
+                    <p>No. 86B, Street 606, Mol Village, Sangkat Chrouy changvar, Khan Chrouy changvar, Phnom Penh,
+                        Cambodia.
+                    <p></p>
+                </div>
+                <div class="foot-menu">
+                    <h1>Menu</h1>
+                    <i class="fa-regular fa-hand-point-right"><a href="../page/menu.html#Hot-coffee">Coffee</a></i>
+                    <i class="fa-regular fa-hand-point-right"><a href="../page/menu.html#Milk-Tea">Milk Tea</a></i>
+                    <i class="fa-regular fa-hand-point-right"><a href="../page/menu.html#Juice">Juice</a></i>
+                    <i class="fa-regular fa-hand-point-right"><a href="../page/menu.html#Cake">Cake</a></i>
+                    <i class="fa-regular fa-hand-point-right"><a href="../page/menu.html#Bread">Bread</a></i>
+
+                </div>
+                <div class="foot-about">
+                    <h1>About Us</h1>
+                    <p><span id="foot-name">&nbsp &nbsp &nbsp DaHouse Café</span> យើងខ្ញុំគឺជា <span
+                            id="foot-name">Website</span> មួយដែលខ្ញុំបានរៀបចំដើម្បីធ្វើឲ្យអតិថិជនដែលចង់ <span
+                            id="foot-name">Order</span>
+                        ទំនិញយើងខ្ញុំ ដែលអាចឲ្យអ្នកដឹងពី​បញ្ជីទំនិញនិងតម្លៃនៃទំនិញនីមួយៗកាន់តែច្បាស់និងមានភាពងាយស្រួល។​
+                        <br>&nbsp &nbsp &nbspជាពិសេស អ្នកក៏អាចជ្រើសរើសឬកម្មង់បានកាន់តែស្រួលនិងឆាប់រហ័ស។
+                    </p>
+                </div>
+                <div class="contact">
+                    <h1>Contact US</h1>
+                    <div class="icon-foot">
+                        <a href="https://web.facebook.com/danieal.danieal.125">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/daniael57/">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-line"></i>
+                        </a>
+                        <a href="https://web.telegram.org/a/">
+                            <i class="fa-brands fa-telegram"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/foryou">
+                            <i class="fa-brands fa-tiktok"></i>
+                        </a>
+                    </div>
+                    <h1 class="num" style="font-size: 20px;">Phone Number</h1>
+                    <p id="number">+855 93 24 50 94</p>
+                    <h1 class="num" style="font-size: 20px;">Email</h1>
+                    <p id="number">phengchhorda66@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="end">
+            <div class="copyright">
+                <div class="copyright_left">
+                    <p> <b>&copy; រក្សាសិទ្ធគ្រប់យ៉ាងដោយ&nbsp &nbsp &nbsp<span
+                                style="font-size: 25px; color: brown;">DaHouse Café</span>
+                        </b></p>
+                </div>
+                <div class="copyright_right">
+                    <p><b>បង្កើតដោយ​​ : ផេង ឆដា ( 2023 )</b></p>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+
+</html>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+</script>
+<script>
+    AOS.init();
+</script>

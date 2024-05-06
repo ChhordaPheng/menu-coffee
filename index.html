@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar">
+
+        <!-- ======first menu===== -->
+
+        <div class="navbar1">
+            <div class="logo" data-aos="zoom-in">
+                <img src="image/logo.webp" alt="">
+                <h1>DaHouse Café</h1>
+            </div>
+            <div class="search">
+                <input type="text" id="search" placeholder="ស្វែងរកនៅទីនេះ... ">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+
+        <!-- ========second menu====== -->
+
+        <div class="navbar2">
+            <div class="menu">
+                <ul>
+                    <li class="dropdown">
+                        <a href="index.html" class="hvr-underline-from-center">
+                            <i class="fa-solid fa-house"></i>
+                            ទំព័រដើម</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="hvr-underline-from-center">
+                            <i class="fa-solid fa-mug-hot"></i>
+                            កាហ្វេ</a>
+                        <div class="dropdown-item">
+                            <ul>
+                                <li>
+                                    <a href="page/menu.html#Hot-coffee" class="hvr-underline-from-center">Hot coffee</a>
+                                </li>
+                                <li>
+                                    <a href="page/menu.html#Iced-coffee" class="hvr-underline-from-center">Cold
+                                        coffee</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="hvr-underline-from-center">
+                            <i class="fa-solid fa-glass-water"></i>
+
+                            ភេស្ជជៈ</a>
+                        <div class="dropdown-item">
+                            <ul>
+                                <li>
+                                    <a href="page/menu.html#Juice" class="hvr-underline-from-center">ទឹកផ្លែឈើ</a>
+                                </li>
+                                <li>
+                                    <a href="page/menu.html#Milk-Tea" class="hvr-underline-from-center">តែគុជ</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="hvr-underline-from-center">
+                            <i class="fa-solid fa-cake-candles"></i>
+                            ខេក
+                        </a>
+                        <div class="dropdown-item">
+                            <ul>
+                                <li><a href="page/menu.html#Cake" class="hvr-underline-from-center">នំខេក</a></li>
+                                <li><a href="page/menu.html#Bread" class="hvr-underline-from-center">នំប័ុង</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="page/contactUs.html" class="hvr-underline-from-center">
+                            <i class="fa-solid fa-id-card"></i>
+                            ទំនាក់ទំនង
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="page/AboutUs.html" class="hvr-underline-from-center">
+                            <i class="fa-regular fa-circle-user"></i>
+
+                            អំពីខ្ញុំ</a>
+                    </li>
+                </ul>
+            </div>
+            <a href="page/signUp.html"><button id="sign" class="hvr-shrink">Sign Up</button></a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="bg">
+                        <img src="image/bg.png" alt="background coffee">
+                        <div class="coffee-cup">
+                            <img src="image/coffee-cup.png" alt="coffee-cup">
+                        </div>
+                        <div class="back-blur">
+                            <div class="text">
+                                <p>កាហ្វេត្រជាក់ៗ <br><span class="text2">បានញ៉ាំ២នាក់​ អស់ទាស់ម៉ង!</span></p>
+                            </div>
+                            <div class="buy">
+                                <button class="hvr-grow-shadow"><a href="page/BuyNow.html">ទិញឥឡូវនេះ</a></button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="swiper-slide">
+                    <div class="bg">
+                        <img src="image/bg-milk.jpg" alt="">
+                        <div class="coffee-cup">
+                            <img src="image/milk-tea.webp" alt="">
+                        </div>
+                        <div class="back-blur">
+                            <div class="text">
+                                <p>ញ៉ាំ១កែវ <br><span class="text2">មុនចេញទៅសាកថ្មជីវិត!</span></p>
+                            </div>
+                            <div class="buy">
+                                <button class="hvr-grow-shadow"><a href="page/BuyNow.html">ទិញឥឡូវនេះ</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="bg">
+                        <img src="image/bg-cake.jpg" alt="">
+                        <div class="coffee-cup">
+                            <img src="image/big-cake.png" alt="">
+                        </div>
+                        <div class="back-blur">
+                            <div class="text">
+                                <p>សុំពេលសម្រាប់ខ្លួនឯងបន្តិច <br><span class="text2">ញ៉ាំនំហើយចាំធ្វើការបន្ត!</span>
+                                </p>
+                            </div>
+                            <div class="buy">
+                                <button class="hvr-grow-shadow"><a href="page/BuyNow.html">ទិញឥឡូវនេះ</a></button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="swiper-button-next" style="color: rgb(237, 27, 27);"></div>
+            <div class="swiper-button-prev" style="color: rgb(237, 27, 27);"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <h1 id="come">សូមស្វាគមន៍មកកាន់ <span class="come">DaHouse Café</span></h1>
+
+    <div class="welCome">
+        <div class="wel hvr-pulse-grow">
+            <div class="welText">
+                <h2>Coffee</h2>
+                <p><span class="money">Special Price</span></p>
+            </div>
+            <div class="welImg">
+                <img src="image/cafe.png" alt="">
+            </div>
+        </div>
+
+        <div class="wel hvr-pulse-grow">
+            <div class="welText">
+                <h2>Milk Tea</h2>
+                <p><span class="money">Special Price</span></p>
+            </div>
+            <div class="welImg">
+                <img src="image/milk.png" alt="">
+            </div>
+        </div>
+
+        <div class="wel hvr-pulse-grow">
+            <div class="welText">
+                <h2>Juice</h2>
+                <p><span class="money">Special Price</span></p>
+            </div>
+            <div class="welImg">
+                <img src="image/orang.png" alt="">
+            </div>
+        </div>
+
+        <div class="wel hvr-pulse-grow">
+            <div class="welText">
+                <h2>Cake</h2>
+                <p><span class="money">Special Price</span></p>
+            </div>
+            <div class="welImg">
+                <img src="image/caake.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- ======= Best saler ===== -->
+    <div class="hero-banner">
+        <h1 id="pubpular"><span id="our">PUBPULAR</span> MENU</h1>
+        <div class="best">
+            <div class="card hvr-bob">
+                <div class="pic">
+                    <a href="page/BuyNow.html" id="buy"><button id="buy-now">ទិញឥឡូវនេះ</button></a>
+                    <img src="image/coffee/latte.jpg" alt="">
+                </div>
+                <div class="describe">
+                    <p>Hot Coffee &#160;
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                    <h1>Latte</h1>
+                    <p><span id="price">PRICE: &#160;</span><span class="price">$5.80</span></p>
+                </div>
+            </div>
+
+            <div class="card card2 hvr-bob">
+                <div class="pic">
+                    <a href="page/BuyNow.html" id="buy"><button id="buy-now">ទិញឥឡូវនេះ</button></a>
+                    <img src="image/Pearl Milk Tea.jpeg" alt="">
+                </div>
+                <div class="describe">
+                    <p>Milk Tea &#160;
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                    <h1>Pearl Milk Tea</h1>
+                    <p><span id="price">PRICE: &#160; </span><span class="price">$4.50</span></p>
+                </div>
+            </div>
+
+            <div class="card hvr-bob">
+                <div class="pic">
+                    <a href="page/BuyNow.html" id="buy"><button id="buy-now">ទិញឥឡូវនេះ</button></a>
+                    <img src="image/cake/Birthday Cake.jpg" alt="">
+                </div>
+                <div class="describe">
+                    <p>Cake &#160;
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </p>
+                    <h1>BirthDay Cake</h1>
+                    <p><span id="price">PRICE: &#160;</span><span class="price">13.90$</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======secon========= -->
+
+    <div class="hero-baner1">
+        <h1 id="pubpular"><span id="our">COMING</span> SOON</h1>
+        <div class="col">
+            <div class="col1 hvr-bob col3">
+                <a href="page/BuyNow.html" id="buy"><button id="buy-now">ទិញឥឡូវនេះ</button></a>
+                <div class="cardImg">
+                    <img src="image/cup-removebg-preview.png" alt="">
+                </div>
+                <div class="cardText">
+                    <h1>Civet Cat Coffee </h1>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <p>$5.50</p>
+                </div>
+            </div>
+
+            <div class="col1 hvr-bob">
+                <a href="page/BuyNow.html" id="buy"><button id="buy-now">ទិញឥឡូវនេះ</button></a>
+                <div class="cardImg">
+                    <img src="image/taro milk tea .png" alt="">
+                </div>
+                <div class="cardText">
+                    <h1>Taro Milk Tea</h1>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <p>$5.30</p>
+                </div>
+            </div>
+
+            <div class="col1 hvr-bob col3">
+                <a href="page/BuyNow.html" id="buy"><button id="buy-now">ទិញឥឡូវនេះ</button></a>
+                <div class="cardImg">
+                    <img src="image/Cheesecake.png" alt="">
+                    <!-- <img src="https://static.vecteezy.com/system/resources/previews/025/065/317/non_2x/cheesecake-with-ai-generated-free-png.png" alt=""> -->
+                </div>
+                <div class="cardText">
+                    <h1>Cheesecake</h1>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <p>$7.50</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- =========about us========== -->
+
+    <div class="about hvr-wobble-horizontal">
+        <div class="coffeeCup">
+            <img src="image/Caramel-Macchiato.png" alt="">
+        </div>
+        <div class="explain">
+            <h1 style="color: white";>អំពី <u><span style="color: orange;">យើងខ្ញុំ</span> </u></h1>
+            <p>ពួកយើងផ្តោតសំខាន់ទៅលើគុណភាព និងសេវាកម្ម។</p>
+            <p>ចំពោះរសជាតិជាមួយនិងតម្លៃ​ ពិតជាសមរម្យបំផុតសម្រាប់អ្នក។</p>
+        </div>
+    </div>
+
+
+    <!-- ===========container 4============== -->
+
+    <div class="container4">
+        <h1>WHAT WE SERVE</h1>
+        <h2>Your Favourite Food</h2>
+        <h2>Delivery Partner</h2>
+
+        <div class="delivery">
+
+            <div class="delivery1">
+                <img src="image/order.png" alt="">
+                <p><b>Easy To Order</b></p>
+            </div>
+
+            <div class="delivery1">
+                <img src="image/delivery.png" alt="">
+                <!-- <img src="https://img.freepik.com/premium-vector/online-order-delivery-by-scooter-concept-with-boxes-map-locator-alongside-online-shopping-website-mobile-phone_88114-246.jpg" alt=""> -->
+                <p><b>Fastest Delivery</b></p>
+            </div>
+
+            <div class="delivery1 delivery3">
+                <img src="image/waiter.png" alt="">
+                <p><b>Best Quality</b></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========footer======= -->
+
+    <div class="foot">
+        <div class="main-foot" data-aos="fade-up">
+            <div class="logo-foot">
+                <img src="image/logo.webp" alt="logo">
+                <h1>DaHouse Café</h1>
+                <p>No. 86B, Street 606, Mol Village, Sangkat Chrouy changvar, Khan Chrouy changvar, Phnom Penh,
+                    Cambodia.
+                <p></p>
+            </div>
+            <div class="foot-menu">
+                <h1>Menu</h1>
+                <i class="fa-regular fa-hand-point-right"><a href="page/menu.html#Hot-coffee">Coffee</a></i>
+                <i class="fa-regular fa-hand-point-right"><a href="page/menu.html#Milk-Tea">Milk Tea</a></i>
+                <i class="fa-regular fa-hand-point-right"><a href="page/menu.html#Juice">Juice</a></i>
+                <i class="fa-regular fa-hand-point-right"><a href="page/menu.html#Cake">Cake</a></i>
+                <i class="fa-regular fa-hand-point-right"><a href="page/menu.html#Bread">Bread</a></i>
+
+            </div>
+            <div class="foot-about">
+                <h1>About Us</h1>
+                <p><span id="foot-name">&nbsp &nbsp &nbsp DaHouse Café</span> យើងខ្ញុំគឺជា <span
+                        id="foot-name">Website</span> មួយដែលខ្ញុំបានរៀបចំដើម្បីធ្វើឲ្យអតិថិជនដែលចង់ <span
+                        id="foot-name">Order</span>
+                    ទំនិញយើងខ្ញុំ ដែលអាចឲ្យអ្នកដឹងពី​បញ្ជីទំនិញនិងតម្លៃនៃទំនិញនីមួយៗកាន់តែច្បាស់និងមានភាពងាយស្រួល។​
+                    <br>&nbsp &nbsp &nbspជាពិសេស អ្នកក៏អាចជ្រើសរើសឬកម្មង់បានកាន់តែស្រួលនិងឆាប់រហ័ស។
+                </p>
+            </div>
+            <div class="contact">
+                <h1>Contact US</h1>
+                <div class="icon-foot">
+                    <a href="https://web.facebook.com/danieal.danieal.125">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="https://www.instagram.com/daniael57/">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-line"></i>
+                    </a>
+                    <a href="https://web.telegram.org/a/">
+                        <i class="fa-brands fa-telegram"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/foryou">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                </div>
+                <h1 class="num" style="font-size: 20px;">Phone Number</h1>
+                <p id="number">+855 93 24 50 94</p>
+                <h1 class="num" style="font-size: 20px;">Email</h1>
+                <p id="number">phengchhorda66@gmail.com</p>
+            </div>
+        </div>
+    </div>
+    <div class="end">
+        <div class="copyright">
+            <div class="copyright_left">
+                <p> <b>&copy; រក្សាសិទ្ធគ្រប់យ៉ាងដោយ&nbsp &nbsp &nbsp<span
+                            style="font-size: 25px; color: brown;">DaHouse Café</span>
+                    </b></p>
+            </div>
+            <div class="copyright_right">
+                <p><b>បង្កើតដោយ​​ : ផេង ឆដា ( 2023 )</b></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+
+</html>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 10,
+        speed: 1000,
+        centeredSlides: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+</script>
+<script>
+    AOS.init();
+</script>
+
+
+<!-- =====Menu====== -->
